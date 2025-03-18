@@ -10,3 +10,4 @@ function updateClock(){
     document.getElementById("digital-clock").textContent=timeString;
 }
 setInterval(updateClock, 1000);
+updateClock();
